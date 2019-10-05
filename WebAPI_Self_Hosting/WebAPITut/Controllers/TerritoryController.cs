@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace WebAPITut.Controllers
 {
-    [RoutePrefix("api/territry")]
+    [RoutePrefix("api/territory")]
     public class TerritoryController : ApiController
     {
         private readonly ITerritoryRepository _territoryRepository;
@@ -21,7 +21,7 @@ namespace WebAPITut.Controllers
             _territoryRepository = territoryRepository;
             _mapper = mapper;
         }
-        [Route("GetAll")]
+        [Route("getAll")]
         [HttpGet]
         public async Task<IHttpActionResult> GetAll()
         {

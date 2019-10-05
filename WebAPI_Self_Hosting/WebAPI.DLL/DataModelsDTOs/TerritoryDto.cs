@@ -19,7 +19,7 @@ namespace WebAPI.DLL.DataModelsDTOs
 
         public int RegionID { get; set; }
 
-        public virtual Region Region { get; set; }
+        //public virtual Region Region { get; set; }
 
     }
 }

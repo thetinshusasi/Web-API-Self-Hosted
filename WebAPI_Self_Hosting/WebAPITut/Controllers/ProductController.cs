@@ -12,6 +12,7 @@ using WebAPI.DLL.IRepositories;
 
 namespace WebAPITut.Controllers
 {
+    [RoutePrefix("api/product")]
     public class ProductController : ApiController
     {
         private readonly IProductRepository _productRepository;
@@ -23,7 +24,7 @@ namespace WebAPITut.Controllers
         }
 
 
-        [Route("GetAll")]
+        [Route("getAll")]
         [HttpGet]
         public async Task<IHttpActionResult> GetAll()
         {

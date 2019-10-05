@@ -22,7 +22,7 @@ namespace WebAPITut.Controllers
             _orderRepository = orderRepository;
 
         }
-        [Route("GetAll")]
+        [Route("getAll")]
         [HttpGet]
         public async Task<IHttpActionResult> GetAll()
         {

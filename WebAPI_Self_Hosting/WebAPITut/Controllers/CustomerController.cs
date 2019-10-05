@@ -22,7 +22,7 @@ namespace WebAPITut.Controllers
             _customerRepository = customerRepository;
             _mapper = mapper;
         }
-        [Route("GetAll")]
+        [Route("getAll")]
         [HttpGet]
         public async Task<IHttpActionResult> GetAll()
         {

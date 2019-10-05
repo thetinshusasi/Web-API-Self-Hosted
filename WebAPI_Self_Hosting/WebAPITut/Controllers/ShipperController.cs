@@ -21,7 +21,7 @@ namespace WebAPITut.Controllers
             _shipperRepository = shipperRepository;
             _mapper = mapper;
         }
-        [Route("GetAll")]
+        [Route("getAll")]
         [HttpGet]
         public async Task<IHttpActionResult> GetAll()
         {
