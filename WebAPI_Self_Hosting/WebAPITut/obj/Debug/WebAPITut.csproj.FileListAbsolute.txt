@@ -174,3 +174,5 @@ D:\Test Code\C#\Web Api\Web API Self Host\WebAPI_Self_Hosting\WebAPITut\bin\Syst
 D:\Test Code\C#\Web Api\Web API Self Host\WebAPI_Self_Hosting\WebAPITut\obj\Debug\WebAPITut.csprojResolveAssemblyReference.cache
 D:\Test Code\C#\Web Api\Web API Self Host\WebAPI_Self_Hosting\WebAPITut\obj\Debug\WebAPITut.exe
 D:\Test Code\C#\Web Api\Web API Self Host\WebAPI_Self_Hosting\WebAPITut\obj\Debug\WebAPITut.pdb
+D:\Test Code\C#\Web Api\Web API Self Host\WebAPI_Self_Hosting\WebAPITut\bin\Microsoft.Owin.Cors.dll
+D:\Test Code\C#\Web Api\Web API Self Host\WebAPI_Self_Hosting\WebAPITut\bin\Microsoft.Owin.Cors.xml
